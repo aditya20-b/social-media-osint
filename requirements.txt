@@ -1,0 +1,38 @@
+# Core OSINT Libraries
+praw==7.7.1                    # Reddit API wrapper
+tweepy==4.14.0                 # Twitter/X API wrapper
+newspaper4k                    # News article extraction (maintained fork of newspaper3k)
+beautifulsoup4==4.12.2         # HTML parsing for web scraping
+lxml>=4.9.3                    # XML/HTML parser (required by newspaper)
+
+# Sentiment Analysis
+textblob==0.17.1               # Simple sentiment analysis library
+vaderSentiment==3.3.2          # VADER sentiment (better for social media!)
+nltk==3.8.1                    # Natural language processing toolkit
+transformers==4.57.1           # Advanced NLP models (optional)
+torch==2.9.0                   # PyTorch for transformers (optional)
+
+# Data Processing
+pandas==2.1.4                  # Data manipulation and analysis
+numpy==1.26.2                  # Numerical computing
+
+# Visualization
+matplotlib==3.8.2              # Static visualizations
+plotly==5.18.0                 # Interactive visualizations
+wordcloud==1.9.3               # Word cloud generation
+
+# Web Dashboard
+streamlit==1.29.0              # Web application framework
+
+# Utilities
+python-dotenv==1.0.0           # Environment variable management
+requests==2.31.0               # HTTP library
+aiohttp==3.9.1                 # Async HTTP client
+tqdm==4.66.1                   # Progress bars
+
+# Date/Time Handling
+python-dateutil==2.8.2         # Date parsing utilities
+pytz==2023.3                   # Timezone handling
+
+# Report Generation
+jinja2==3.1.2                  # Template engine for reports
